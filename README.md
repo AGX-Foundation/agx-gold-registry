@@ -1,19 +1,43 @@
-📦 agx-gold-registry
-Overview
-The AGX Open Compliance Registry is a public, API-accessible registry of certified participants in Africa’s gold supply chain—built to power trusted, traceable trade. Designed as a core component of the AGX Protocol, it enables real-time verification of exporters, aggregators, assayers, vault operators, field agents, and gold traders operating in high-value, high-risk environments.
+# 📦 agx-gold-registry
 
-Whether you're a government regulator, buyer, refiner, or financial institution, the Registry provides a shared compliance layer for identifying credible counterparties, viewing certification history, and tracing the legitimacy of gold across borders. Built for openness, the platform integrates seamlessly with AGX TradePass™, mobile onboarding workflows, and audit records, and is governed by a transparent, standards-aligned data architecture.
+![AGX Open Compliance Registry Banner](./assets/agx-header.png)
 
-🛠️ Key Features
-Modular, open-source compliance schema
-Role-based verification system (exporter, trader, aggregator, etc.)
-Real-time certification status + audit trail
-Optional views for partners and government mirrors
-Support for low-connectivity field use and multilingual agents
+## Overview
 
-📁 What This Repository Includes
-📂 Schema definitions (PostgreSQL or Supabase-compatible)
-🔍 Searchable API layer (REST/GraphQL)
-🌐 Public UI prototype for registry lookups
-🔒 Permissions + contributor roles with audit logs
-🗂️ Docs on data model, governance, and deployment best practices
+The **AGX Open Compliance Registry** is a public, API-accessible database of certified actors in Africa’s gold supply chain. Built to power trusted, transparent, and traceable trade, the registry verifies exporters, aggregators, assayers, vault operators, traders, and field agents across AGX-participating countries.
+
+As the trust backbone of the AGX Protocol, the registry ensures that every certified participant is verifiable, auditable, and linked to a legitimate chain of custody. It integrates seamlessly with tools like AGX TradePass™, mobile onboarding workflows, inspection records, and audit logs to support institutional-grade compliance and cross-border trade enablement.
+
+## 🔑 Key Features
+
+- ✅ Open-source schema for verifiable gold supply chain actors
+- 📜 Certification history and audit trail visibility
+- 🔍 Searchable interface and public verification API
+- 🧩 Role-based permissioning and Trust Score architecture
+- 🌍 Multilingual, offline-ready field deployment support
+
+## 📁 Repository Includes
+
+- `schema/` – Postgres-compatible database schema
+- `api/` – REST and GraphQL endpoint templates
+- `ui/` – Public registry prototype (React/Tailwind)
+- `docs/` – Data model specs and compliance framework
+- `roles/` – Contributor permissions and registry admin SOPs
+
+## 🌍 Designed for Africa, Ready for the World
+
+Initial deployments are focused on Ghana and Guinea, where artisanal and small-scale gold mining is a vital part of the economy. Field tools are built to accommodate low connectivity, local language needs (English, French, Twi, Malinké), and real-world regulatory constraints.
+
+## 📖 Learn More
+
+- [📄 Data Model v0.2](./docs/agx-data-model-v0.2.md)
+- [📑 Compliance Protocol (AGX-Core)](https://github.com/agx-foundation/agx-protocol)
+- [🔐 TradePass™ Overview](https://github.com/agx-foundation/agx-tradepass)
+
+## 🤝 Contributing
+
+We welcome collaborators building public goods, compliance infrastructure, or financial rails for verified trade. Please submit issues, pull requests, or contact [ops@agx.foundation](mailto:ops@agx.foundation) for access to private testing tools.
+
+---
+
+© 2025 AGX Foundation. Licensed under CC-BY-SA 4.0
