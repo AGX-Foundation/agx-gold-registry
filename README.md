@@ -1,6 +1,6 @@
 ## 📦 `agx-gold-registry`
 ### Overview
-The AGX Open Compliance Registry is a public, API-accessible database of certified actors within the AGX ecosystem. It allows real-time identity and status verification of exporters, aggregators, assayers, and field agents.
+The AGX Open Compliance Registry is a decentralized, API-accessible database of certified gold supply chain actors across Africa. Designed as public infrastructure for verified trade, it enables real-time identity and compliance verification of exporters, aggregators, assayers, vault operators, and field agents within the AGX ecosystem. By providing a shared, auditable compliance layer for both public and private actors, the registry promotes transparency, trust, and legitimacy across national borders. It integrates seamlessly with AGX TradePass™, mobile onboarding workflows, and inspection records, and serves as the trust backbone of the AGX Protocol.
 
 ### Key Features
 - Open source database schema
