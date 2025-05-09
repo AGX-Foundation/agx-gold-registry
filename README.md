@@ -1,7 +1,5 @@
 # 📦 agx-network-registry
 
-![AGX Open Compliance Registry Banner](./assets/agx-header.png)
-
 ## Overview
 
 The **AGX Network Registry** is a public, API-accessible database of certified actors in Africa’s gold supply chain. Built to power trusted, transparent, and traceable trade, the registry verifies exporters, aggregators, assayers, vault operators, traders, and field agents across AGX-participating countries.
